@@ -42,4 +42,4 @@
         name: backend
         state: restarted
         enabled: yes
-        daemon.reload: yes
+        daemon-reload: yes
