@@ -13,8 +13,7 @@
     - name: copy backend service file
       ansible.builtin.copy:
         src: backend.service
-        dest:
-           /etc/systemd/system/backend.service
+        dest: /etc/systemd/system/backend.service
     - name: Add application user
       ansible.builtin.file:
         path: /app
